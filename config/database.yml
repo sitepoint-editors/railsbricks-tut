@@ -1,0 +1,12 @@
+# PostgreSQL
+#   Ensure the PostgreSQL gem is defined in your Gemfile
+#   gem 'pg'
+development: 
+  adapter: postgresql 
+  encoding: utf8 
+  database: master_builder_blog_development 
+  username: postgres
+  host: localhost
+  pool: 5
+  port: 5432
+  password: postgres
